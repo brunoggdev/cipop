@@ -192,3 +192,11 @@ nav a {
     font-size: 2.2em;
     padding: 5% 0;
 }
+
+
+/* ========================== O QUE É SECTION ================================ */
+
+.top-3-cards {
+    color: var(--text-primary);
+    background-color: var(--bg-secondary);
+}
