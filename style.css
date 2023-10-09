@@ -233,7 +233,12 @@ nav a {
 
 /* ========================== O QUE É SECTION ================================ */
 
+.top-3-cards img {
+    border-radius: 10px 10px 0 0 !important;
+}
+
 .top-3-cards {
+    border-radius: 10px;
     color: var(--text-primary);
     background-color: var(--bg-secondary);
 }
