@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css" defer>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js" defer></script>
+    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -104,41 +105,27 @@
             <button class="btn-accent mt-5">Conheça agora!</button>
         </div>
 
-        <div class="gallery js-flickity">
-            <div class="gallery-cell"></div>
-            <div class="gallery-cell"></div>
-            <div class="gallery-cell"></div>
-            <div class="gallery-cell"></div>
-            <div class="gallery-cell"></div>
-            <div class="gallery-cell"></div>
-            <div class="gallery-cell"></div>
+        <div class="m-5">
+            <h1>Casos de Sucesso</h1>
+            
+            <div class="carousel" data-flickity='{ "contain":true, "wrapAround":false }'>
+                <div class="carousel-cell rounded"></div>
+                <div class="carousel-cell rounded"></div>
+                <div class="carousel-cell rounded"></div>
+                <div class="carousel-cell rounded"></div>
+                <div class="carousel-cell rounded"></div>
+                <div class="carousel-cell rounded"></div>
+                <div class="carousel-cell rounded"></div>
+            </div>
+            <script type="module">
+                const flkty = new Flickity('.carousel',{
+                    cellAlign: 'left',
+                    contain: true
+                });
+            </script>
         </div>
 
-        <div>
-            <h2>Casos de Sucesso</h2>
-            <ul class="case-ul">
-                <li class="case">
-                    <img src="" alt="Samsung">
-                </li>
-                <li class="case">
-                    <img src="" alt="Lighthouse (?)">
-                </li>
-                <li class="case">
-                    <img src="" alt="AstraZeneca">
-                </li>
-                <li class="case">
-                    <img src="" alt="saudi aramca">
-                </li>
-                <li class="case">
-                    <img src="" alt="TLC">
-                </li>
-                <li class="case">
-                    <img src="" alt="HutchisonPorts">
-                </li>
-            </ul>
-        </div>
-
-        <div>
+        <div class="p-5">
             <h2>Domínios de Desempenho</h2>
             <ul class="dom-ul">
                 <li class="dom-lis">

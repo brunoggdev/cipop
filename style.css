@@ -226,19 +226,19 @@ nav a {
 }
 
 
-.gallery-cell {
-    width: 18%;
+.carousel-cell {
+    width: 230px;
     height: 300px;
-    margin-right: 10px;
+    margin-right: 1.5em;
     background: #EADEDA;
 }
 
-.gallery-cell.is-selected {
+.carousel-cell.is-selected {
     background: #ED2;
 }
 
 /* cell number */
-.gallery-cell:before {
+.carousel-cell:before {
 display: block;
 text-align: center;
 line-height: 200px;
