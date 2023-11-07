@@ -227,9 +227,9 @@ nav a {
 .fade-right {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     bottom: 0;
-    width: 50%; /* Largura da área de fade-out (ajuste conforme necessário) */
+    width: 41.7%; /* Largura da área de fade-out (ajuste conforme necessário) */
     background: linear-gradient(to right, transparent, var(--bg-secondary)); /* Gradiente de opacidade para a direita */
 }
 .cards-dominions {
@@ -248,8 +248,9 @@ nav a {
 }
 
 #start div h1 {
-    font-size: 3em;
-    padding-bottom: 20px;
+    font-size: 4em;
+    padding-bottom: 10px;
+    padding-left: 25px;
     letter-spacing: 25px;
     font-weight: 800;
 }
@@ -313,9 +314,11 @@ font-size: 80px;
 color: white;
 }
 
+
+
 .carousel-dominios >* .carousel-cell:not(.is-selected) {
-transform: scale(0.85);
-opacity: 0.5;
+    transform: scale(0.85);
+    opacity: 0.5;
 }
 
 .carousel-dominios .flickity-page-dots .dot {
