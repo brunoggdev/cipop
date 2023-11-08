@@ -299,6 +299,7 @@ nav a {
     height: 300px;
     margin-right: 1.5em;
     background: #EADEDA;
+    box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.1);
 }
 
 .carousel-sucesso >* .carousel-cell.is-selected {
@@ -397,4 +398,15 @@ input[type='checkbox'] {
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
     padding: .5rem 1rem;
+}
+
+
+.sombra{
+    box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.1);
+}
+
+.alert{
+    background-color: var(--accent-green);
+    color: var(--text-primary);
+    border: var(--accent-green);
 }
