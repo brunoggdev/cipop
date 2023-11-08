@@ -50,7 +50,7 @@
 
         <section>
             <div class="row p-5">
-                <h2 class="my-5">PMBOK? Do que se trata?</h2>
+                <h2 class="my-5 text-center">PMBOK? Do que se trata?</h2>
                 <div class="container">
 
                     <div class="row card-group justify-content-between px-4">
@@ -134,8 +134,8 @@
             <button class="btn-accent mt-5">Conheça agora!</button>
         </div>
         <div class="p-5">
-            <h2 class="pb-2">Domínios de Desempenho</h2>
-            <div class="carousel-dominios" >
+            <h2 class="pb-3 text-center">Domínios de Desempenho</h2>
+            <div class="carousel-dominios">
                 <div class="carousel-cell">
                     <div class="card mb-3 cards-dominions">
                         <div class="row g-0">
@@ -219,12 +219,12 @@
             </div>
             <script type="module">
                 new Flickity('.carousel-dominios', {
-                    wrapAround:true
+                    wrapAround: true
                 });
             </script>
         </div>
         <div class="m-5">
-            <h2 class="pb-2">Casos de Sucesso</h2>
+            <h2 class="pb-3 text-center">Casos de Sucesso</h2>
 
             <div class="carousel-sucesso" data-flickity='{ "contain":true, "wrapAround":false }'>
                 <div class="carousel-cell rounded"></div>
@@ -242,10 +242,22 @@
                 });
             </script>
         </div>
+        <div class="m-5 text-center">
+            <h2 class="pb-2">LGPD e PMBOK</h2>
+            <p class="py-2 px-5 text-start">
+                A conformidade com a Lei Geral de Proteção de Dados Pessoais no Brasil é um desafio complexo devido à
+                sua natureza interdisciplinar. Não se trata apenas de questões legais e tecnológicas, mas também exige
+                conhecimento em administração de empresas, ciência de dados e recursos humanos. Clique abaixo para saber
+                mais sobre as melhores maneiras de gerenciar projetos de conformidade com a LGPD, entendendo os
+                principais obstáculos e suas soluções com base no PMBOK.
+            </p>
+            <button class="btn-accent">Conheça agora!</button>
+        </div>
         <div class="m-5">
             <h2>Sobre nós</h2>
 
         </div>
+
     </main>
     <script type="module">
         let myLabels = document.querySelectorAll('.lbl-toggle'); Array.from(myLabels).forEach(label => { label.addEventListener('keydown', e => { if (e.which === 32 || e.which === 13) { e.preventDefault(); label.click(); }; }); }); 
