@@ -255,7 +255,7 @@ nav a {
 .card-lgpd {
     width: 90vw;
     color: var(--text-primary);
-    background-color: var(--bg-secondary);
+    background-color: var(--bg-secondary) !important;
     box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.1);
 }
 .btn-outline{
@@ -290,7 +290,7 @@ nav a {
 .top-3-cards {
     border-radius: 10px;
     color: var(--text-primary);
-    background-color: var(--bg-secondary);
+    background-color: var(--bg-secondary) !important;
     box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -314,6 +314,9 @@ nav a {
 }
 
 
+.carousel-dominios .carousel-cell .card{
+    background-color: var(--bg-secondary) !important;
+}
 .carousel-dominios >* .carousel-cell:not(.is-selected) {
     transform: scale(0.85);
     opacity: 0.5;
