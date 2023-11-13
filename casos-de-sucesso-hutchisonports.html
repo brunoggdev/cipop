@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024, initial-scale=1">
+    <title>PMBOK</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" defer>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js" defer></script>
+</head>
+
+<body>
+
+    <header class="sticky-top">
+        <img src="resources/CIPOP.svg" alt="Logo da CIPOP">
+        <nav >
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Aplicabilidade</a></li>
+                <li><a href="#">Domínios</a></li>
+                <li><a href="#">Cases de Sucesso</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="w-75 mx-auto px-5">
+            <p>
+                <span>Background:</span> A Hutchison Port Holdings (HPH) opera portos em todo o mundo e precisava desenvolver um novo sistema de gerenciamento de terminais, chamado nGen, para controlar eficientemente suas operações globais. Esse sistema abrangeria planejamento de navios, operações de portões, interações de navios, configuração de pátios, monitoramento de operações, utilização de equipamentos e otimização de custos. O projeto, iniciado em 2001 com prazo de conclusão em 2005 e um orçamento inicial de US$10 milhões, foi uma colaboração entre os portos subsidiários da HPH em Hong Kong e Shenzhen, China. Isso permitiu melhorar a eficiência e a competitividade da HPH no setor de transporte marítimo.
+            </p>
+            <p>         
+                <span>Desafios:</span> A HPH opera portos de diferentes tamanhos em locais geograficamente diversos, sujeitos a regulamentos e políticas locais variados. O desafio era criar um sistema que atendesse a todas essas variações. Além disso, a equipe do projeto precisava coordenar a logística entre locais distantes e lidar com uma ampla gama de partes interessadas, incluindo operações terminais, desenvolvimento de operações e serviços de informação. O projeto tinha um escopo amplo e exigia um alto nível de habilidade em gerenciamento de projetos para cumprir cronogramas e orçamentos em um ambiente tão complexo.
+            </p>
+            <p>
+                <span>Soluções:</span> A equipe do projeto nGen da HPH utilizou metodologias do Guia do Corpo de Conhecimento em Gerenciamento de Projetos (PMBOK® Guide) para atender aos altos padrões de qualidade, custo e cronograma da empresa. Isso envolveu a criação de um escritório de gerenciamento de projetos (PMO) no início do projeto, estabelecendo a carta do projeto e o escopo. O projeto foi dividido em fases para gerenciamento mais eficiente, com a primeira fase focada no desenvolvimento do sistema nGen para atender às necessidades operacionais de diferentes portos. Foram aplicadas metodologias de gerenciamento de tempo para cumprir os requisitos de cronograma, e o controle de custos foi alcançado por meio de estimativas, orçamentos e monitoramento. A comunicação com as partes interessadas foi facilitada por um comitê de direção, e estratégias foram implementadas para gerenciar riscos, incluindo equipes experientes em cada porto para lidar com possíveis problemas.
+            </p>
+            <p>
+                <span>Resultados:</span> O sistema nGen foi desenvolvido pela HPH para gerenciar terminais de contêineres de forma escalável e flexível, utilizando tecnologias de plataforma aberta padrão da indústria. Ele foi projetado para atender às diversas necessidades dos portos da HPH, desde pequenas operações até grandes portos centrais. O projeto foi bem-sucedido, ficando 10% abaixo do orçamento e cumprindo os prazos. O sistema melhorou a eficiência operacional, permitindo maior controle da cadeia de suprimentos pelos clientes. Ele será implementado em todos os portos da HPH e contribuiu para a missão da empresa de se destacar como líder na operação de terminais de contêineres.
+            </p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="mt-5 text-center p-5 d-flex justify-content-center" style="background-color: #232436;">
+            <div class="text-center me-5 align-self-center">
+                <img src="resources/CIPOP.svg" alt="Logo da CIPOP">
+                <p>Consultoria Integrada para Porjetos e Operações com PMBOK</p>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="p-2">
+                    Sobre nós
+                </div>
+                <div class="p-2">
+                    PMBOK
+                </div>
+                <div class="p-2">
+                    Dúvidas?
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type="module">
+        let myLabels = document.querySelectorAll('.lbl-toggle'); Array.from(myLabels).forEach(label => { label.addEventListener('keydown', e => { if (e.which === 32 || e.which === 13) { e.preventDefault(); label.click(); }; }); }); 
+    </script>
+    <div vw class="enabled">
+        <div vw-access-button class="sombra active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+
+</html>
