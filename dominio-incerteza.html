@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024, initial-scale=1">
+    <title>PMBOK</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" defer>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js" defer></script>
+</head>
+
+<body>
+
+    <header class="sticky-top">
+        <a href="/"><img src="resources/CIPOP.svg" alt="Logo da CIPOP"></a>
+        <nav>
+            <ul class="menu">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/#aplicabilidade-e-beneficions">Aplicabilidade</a></li>
+                <li><a href="/#dominios-de-desempenho">Domínios</a></li>
+                <li><a href="/#cases-de-sucesso">Cases de Sucesso</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="pt-5 mt-1 wave-primary">
+            <div class="py-3 w-50 mx-auto">
+                <p>
+                <h1 class="mb-5">Dominios de desempenho - Incerteza</h1>
+                <p>
+                    Esse domínio trata das atividades relacionadas a riscos e incertezas, as identificando, avaliando e decidindo como lidar.
+                </p>
+                <div class="wave primary">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                        preserveAspectRatio="none">
+                        <path
+                            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                            class="shape-fill"></path>
+                    </svg>
+                    </p>
+                </div>
+            </div>
+            <div class="pt-5 mt-1 wave-secondary">
+                <div class="py-3 w-50 mx-auto">
+                    <p>
+                        Os projetos operam em ambientes com diferentes níveis de incerteza, apresentando tanto ameaças quanto oportunidades que as equipes de projeto exploram e decidem como abordar. A incerteza abrange desconhecimento futuro, falta de clareza nas condições atuais ou futuras, e complexidade em sistemas dinâmicos. Para enfrentar com sucesso a incerteza, é crucial compreender o contexto mais amplo em que o projeto está inserido, considerando fatores econômicos, considerações técnicas, restrições legais, ambiente físico, influências sociais, de mercado e políticas. Este domínio de desempenho aborda a gestão da incerteza, incluindo os riscos do projeto e estratégias para navegar por diversas formas de incerteza.
+                    </p>
+                    <p>
+                        <strong>Incerteza - </strong> Falta de compreensão e conscientização de questões, eventos, caminhos a seguir ou soluções a serem buscadas.
+                    </p>
+                    
+                    <p>
+                        <strong>Ambiguidade - </strong> Um estado de incerteza, de dificuldade em identificar a causa dos eventos ou a opção certa entre várias possibilidades.
+                    </p>
+                    
+                    <p>
+                        <strong>Complexidade - </strong> Uma característica de programa, projeto ou seu ambiente que indica a dificuldade de gerenciamento devido ao comportamento humano, comportamento do sistema e ambiguidade.
+                    </p>
+                    
+                    <p>
+                        <strong>Volatilidade - </strong> A possibilidade de mudança rápida e imprevisível.
+                    </p>
+                    
+                    <p>
+                        <strong>Risco - </strong> Um evento ou condição incerta que, se ocorrer, provocará um efeito positivo ou negativo em um ou mais objetivos do projeto.
+                    </p>
+                    
+                </div>
+            </div>
+
+
+            <div class="pt-5 text-center p-5 d-flex justify-content-center" style="background-color: #232436;">
+                <div class="text-center me-5 align-self-center">
+                    <a href="/"><img src="resources/CIPOP.svg" alt="Logo da CIPOP"></a>
+                    <p>Consultoria Integrada para Porjetos e Operações com PMBOK</p>
+                </div>
+                <!-- <div class="d-flex flex-column">
+                    <div class="p-2">
+                        Sobre nós
+                    </div>
+                    <div class="p-2">
+                        PMBOK
+                    </div>
+                    <div class="p-2">
+                        Dúvidas?
+                    </div>
+                </div> -->
+            </div>
+    </main>
+    <script type="module">
+        let myLabels = document.querySelectorAll('.lbl-toggle'); Array.from(myLabels).forEach(label => { label.addEventListener('keydown', e => { if (e.which === 32 || e.which === 13) { e.preventDefault(); label.click(); }; }); }); 
+    </script>
+    <div vw class="enabled">
+        <div vw-access-button class="sombra active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+
+</html>
