@@ -459,3 +459,33 @@ input[type='checkbox'] {
     background-color: var(--bg-primary);
 }
 
+
+.wave {
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    width: 100vw;
+    overflow: hidden;
+    line-height: 0;
+    margin-top: 15px;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 60px;
+}
+
+.wave.secondary .shape-fill {
+    fill: var(--bg-secondary);
+}
+.wave.primary .shape-fill {
+    fill: var(--bg-primary);
+}
+.wave-secondary {
+    background-color: var(--bg-secondary);
+}
+.wave-primary {
+    background-color: var(--bg-primary);
+}
